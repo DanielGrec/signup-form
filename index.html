@@ -5,6 +5,104 @@
 		<meta name="viewport" content="width=device-width" />
 		<title>Sign Up Form</title>
 		<link href="style.css" rel="stylesheet" type="text/css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&family=Roboto+Condensed:wght@300;400;700&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
-	<body></body>
+	<body>
+		<div class="container">
+			<div class="img">
+				<img
+					src="mona-lisa.jpg"
+					alt="pixelated picture of mona lisa"
+				/>
+			</div>
+			<div class="content">
+				<div class="header">
+					<h1>
+						Come at the live auction where you can win the abstract
+						version of the popular painting, Mona Lisa!
+					</h1>
+					<h2>Sign up now to get started.</h2>
+				</div>
+				<div class="form">
+					<form action="#">
+						<fieldset>
+							<legend>Let's do this!</legend>
+							<p class="inputs">
+								<label for="first-name">FIRST NAME</label>
+								<input
+									type="text"
+									name="first-name"
+									id="first-name"
+									required
+								/>
+							</p>
+							<p class="inputs">
+								<label for="last-name">LAST NAME</label>
+								<input
+									type="text"
+									name="last-name"
+									id="last-name"
+									required
+								/>
+							</p>
+							<p class="inputs">
+								<label for="email">EMAIL</label>
+								<input
+									type="email"
+									name="email"
+									id="email"
+									required
+								/>
+							</p>
+							<p class="inputs">
+								<label for="phone-number">PHONE NUMBER</label>
+								<input
+									type="text"
+									name="phone-number"
+									id="phone-number"
+								/>
+							</p>
+							<p class="inputs">
+								<label for="password">PASSWORD</label>
+								<input
+									type="password"
+									name="password"
+									id="password"
+									required
+								/>
+							</p>
+							<p class="inputs">
+								<label for="confirm-pass"
+									>CONFIRM PASSWORD</label
+								>
+								<input
+									type="password"
+									name="confirm-password"
+									id="confirm-pass"
+									required
+								/>
+							</p>
+							<div class="submit">
+								<button type="submit">Create Account</button>
+								<p>
+									Already have an account?
+									<a href="#">Log in</a>
+								</p>
+							</div>
+						</fieldset>
+					</form>
+				</div>
+				<div class="footer">
+					Created by:<a href="https://github.com/DanielGrec"
+						>Daniel Grec</a
+					>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
